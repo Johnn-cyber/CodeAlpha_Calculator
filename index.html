@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+    <div id="display">0</div>
+    <div id="buttons">
+        <button onclick="backspace()" class="del">&#x232B</button>
+        <button onclick="cleardisplay()" class="ce">AC</button>
+        <button onclick="modulo()" class="modulo">%</button>
+        <button onclick="sym('/')" class="symbol">&divide</button>
+        <button onclick="append(7)" class="7">7</button>
+        <button onclick="append(8)" class="8">8</button>
+        <button onclick="append(9)" class="9">9</button>
+        <button onclick="sym('*')" class="symbol">&times</button>
+        <button onclick="append(4)" class="4">4</button>
+        <button onclick="append(5)" class="5">5</button>
+        <button onclick="append(6)" class="6">6</button>
+        <button onclick="sym('-')" class="symbol">-</button>
+        <button onclick="append(1)" class="1">1</button>
+        <button onclick="append(2)" class="2">2</button>
+        <button onclick="append(3)" class="3">3</button>
+        <button onclick="sym('+')" class="plus symbol">+</button>
+        <button onclick="append(0)" class="0">0</button>
+        <button onclick="decimal('.')" class="decimal">.</button>
+        <button onclick="result()" class="symbol">=</button>
+    </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
